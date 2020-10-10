@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title> 직원 관리 시스템 </title>
+    <style>
+        body{
+            margin: 0 auto;
+            width: 1000px;
+        }
+    </style>
 </head>
 
 <body>

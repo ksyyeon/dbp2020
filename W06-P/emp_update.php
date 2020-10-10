@@ -21,7 +21,7 @@
             <label>emp_no: </label>
             <input type="text" name="emp_no" value="'.$row['emp_no'].'" placeholder="emp_no"><br>
             <label>birth_date(0000-00-00): </label>
-            <input type="text" name=birth_date value="'.$row['birth_date'].'" placeholder=birth_date><br>
+            <input type="date" name=birth_date value="'.$row['birth_date'].'" placeholder="birth_date"><br>
             <label>first_name: </label>
             <input type="text" name="first_name" value="'.$row['first_name'].'" placeholder="first_name"><br>
             <label>last_name: </label>
@@ -29,13 +29,13 @@
             <label>gender(M or F): </label>
             <input type="text" name="gender" value="'.$row['gender'].'" placeholder="gender"><br>
             <label>hire_date(0000-00-00): </label>
-            <input type="text" name="hire_date" value="'.$row['hire_date'].'" placeholder="hire_date"><br>
+            <input type="date" name="hire_date" value="'.$row['hire_date'].'" placeholder="hire_date"><br>
             <input type="submit" value="Update">
         </form>
     ';
     } else {
         $emp_info .= '
-            조회된 결과가 없습니다. <a href="index.php">돌아가기</a>
+            조회된 직원이 없습니다. <a href="index.php">돌아가기</a>
         ';
     }
     
@@ -47,6 +47,12 @@
 <head>
     <meta charset="utf-8">
     <title> 직원 관리 시스템 </title>
+    <style>
+        body{
+            margin: 0 auto;
+            width: 1000px;
+        }
+    </style>
 </head>
 
 <body>
