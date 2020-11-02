@@ -35,8 +35,7 @@
         <input type="submit" value="Search">
     </form>
     <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/globalheader_logo.png?t=962016">
-    <table >
-        </tr>
+    <table>
         <tr>
             <td style="color:white"> Browse by Categories </td>
             <td style="color:white"> Browse by Genres </td>
