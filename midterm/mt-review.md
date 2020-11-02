@@ -3,7 +3,7 @@
 
 1. 새로배운 내용  
 - a:link {}, a:visited {}, a:active {}, a:hover {} 하이퍼링크의 상태별로 style을 지정할 수 있다
-- <code> <a href="javascript:history.go(-1)">Back</a> </code> 페이지 뒤로가기
+- <code>javascript:history.go(-1)</code> 페이지 뒤로가기
 
 2. 문제가 발생한 부분 + 해결과정  
 - csv파일 table로 import하기 
