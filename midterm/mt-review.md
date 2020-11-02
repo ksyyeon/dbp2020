@@ -10,7 +10,7 @@
     1. 필요한 데이터셋을 csv파일로 다운/저장한다
     2. 내 데이터베이스 서버와 workbench를 연결한다 <a href="https://hoing.io/archives/383">참고1</a> <a href="https://qastack.kr/dba/3489/trying-to-use-mysql-workbench-with-tcp-ip-over-ssh-failed-to-connect">참고2</a> 
     3. 스키마를 생성하고 스키마에 오른쪽 마우스를 눌러 Table Data Import Wizard 선택
-    4. 다운/저장했던 csv파일을 로드하면 끝
+    4. 다운/저장했던 csv파일을 로드하면 끝  
     ※ 중요한 점은 데이터베이스에서 로딩할 수 있는 csv파일의 형식이 제한적이라서 반드시 데이터값 구분이 콤마로 구분되어있어야한다. 데이터 하나라도 잘못 되어있으면 csv형식으로 인식하지 못한다...
 
 3. 아쉬운점  
