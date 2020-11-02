@@ -5,8 +5,7 @@
 - a:link {}, a:visited {}, a:active {}, a:hover {} 하이퍼링크의 상태별로 style을 지정할 수 있다
 - <code>javascript:history.go(-1)</code> 페이지 뒤로가기
 
-2. 문제가 발생한 부분 + 해결과정  
-- csv파일 table로 import하기 
+2. 까먹지 말자 csv파일 table로 import하기  
     1. 필요한 데이터셋을 csv파일로 다운/저장한다
     2. 내 데이터베이스 서버와 workbench를 연결한다 <a href="https://hoing.io/archives/383">참고1</a> <a href="https://qastack.kr/dba/3489/trying-to-use-mysql-workbench-with-tcp-ip-over-ssh-failed-to-connect">참고2</a> 
     3. 스키마를 생성하고 스키마에 오른쪽 마우스를 눌러 Table Data Import Wizard 선택
